@@ -14,7 +14,7 @@ environment:
 # Post-install test scripts.
 test_script:
   #Output userful info for debuffing.
-  -  node --version
+  - node --version
   - npm  --version
   # run tests
   - npm test
